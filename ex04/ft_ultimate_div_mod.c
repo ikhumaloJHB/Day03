@@ -6,7 +6,7 @@
 /*   By: ikhumalo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 16:25:24 by ikhumalo          #+#    #+#             */
-/*   Updated: 2020/06/21 16:40:13 by ikhumalo         ###   ########.fr       */
+/*   Updated: 2020/06/23 10:01:51 by ikhumalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,15 @@ void  ft_ultimate_div_mod(int *a,int *b){
 
 	int c;
 	int d;
+	int e;
+	int f;
+     e = *a;
+     f = *b;		 
+	c = e / f;
+	d = e % f;
 
-	c = a
+	a = &c;
+	b = &d;
+}	
+	
 
