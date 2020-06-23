@@ -6,7 +6,7 @@
 /*   By: ikhumalo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 13:11:16 by ikhumalo          #+#    #+#             */
-/*   Updated: 2020/06/21 13:24:49 by ikhumalo         ###   ########.fr       */
+/*   Updated: 2020/06/23 08:57:49 by ikhumalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,7 @@ void ft_ft(int *nbr){
 int main(){
 	int *ptr;
 	ft_ft(ptr);
+	write(1,&ptr,2);
+
 	return 0;
 }
